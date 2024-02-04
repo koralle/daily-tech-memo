@@ -7,5 +7,5 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
 	output: "server",
 	adapter: cloudflare(),
-	integrations: [starlight()],
+	integrations: [starlight({ title: "koralle's daily tech-memo" })],
 });
